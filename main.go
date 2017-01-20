@@ -8,13 +8,13 @@ import (
 
 	"github.com/Unknwon/goconfig"
 	"github.com/goftp/file-driver"
-	"github.com/goftp/ftpd/web"
-	"github.com/goftp/leveldb-auth"
 	"github.com/goftp/leveldb-perm"
 	"github.com/goftp/qiniu-driver"
 	"github.com/goftp/server"
 	"github.com/lunny/log"
 	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/wenhuang1003/ftpd/web"
+	"github.com/wenhuang1003/leveldb-auth"
 )
 
 var (
